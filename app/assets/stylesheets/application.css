@@ -41,5 +41,42 @@ div {
   display:block;
 }
 
+
+
+div,error :invalid {
+
+  border:solid red 2px;
+  padding-bottom:0;
+  margin-bottom:20px;
+  background-color:lightgray;
+  text-align:left;
+  font-weight:bold;
+
+  font-size:12px;
+  margin:7px;
+
+  color:white;
+  display:table;
+
+
 }
+
+h3 {
+  background-color:darkred;
+}
+
+error2 :invalid {
+
+
+  padding-bottom:0;
+
+  background-color:red;
+  text-align:left;
+  font-weight:bold;
+
+  font-size:12px;
+  margin:7px;
+
+}
+
 
